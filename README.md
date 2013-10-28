@@ -1,4 +1,6 @@
 autoclick
 =========
 
-Auto cookie clicker for Mac OS X
+An automatic cookie clicker tool for Mac OS X.
+
+![screen shot](ScreenShot.png)
