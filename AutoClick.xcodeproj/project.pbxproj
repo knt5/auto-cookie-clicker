@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188CDC54181AB5DD005A1048 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CDC53181AB5DD005A1048 /* Cocoa.framework */; };
+		188CDC5E181AB5DD005A1048 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188CDC5C181AB5DD005A1048 /* InfoPlist.strings */; };
+		188CDC60181AB5DD005A1048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CDC5F181AB5DD005A1048 /* main.m */; };
+		188CDC64181AB5DD005A1048 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 188CDC62181AB5DD005A1048 /* Credits.rtf */; };
+		188CDC67181AB5DD005A1048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CDC66181AB5DD005A1048 /* AppDelegate.m */; };
+		188CDC6A181AB5DD005A1048 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188CDC68181AB5DD005A1048 /* MainMenu.xib */; };
+		188CDC72181AB5DD005A1048 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CDC71181AB5DD005A1048 /* SenTestingKit.framework */; };
+		188CDC73181AB5DD005A1048 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188CDC53181AB5DD005A1048 /* Cocoa.framework */; };
+		188CDC7B181AB5DD005A1048 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 188CDC79181AB5DD005A1048 /* InfoPlist.strings */; };
+		188CDC7E181AB5DD005A1048 /* AutoClickTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 188CDC7D181AB5DD005A1048 /* AutoClickTests.m */; };
+		18CD3A15181E1D8200D33382 /* MainWindowDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CD3A14181E1D8200D33382 /* MainWindowDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188CDC74181AB5DD005A1048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188CDC46181AB5DC005A1048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188CDC4E181AB5DC005A1048;
+			remoteInfo = AutoClick;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		188CDC4F181AB5DD005A1048 /* AutoClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoClick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188CDC53181AB5DD005A1048 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		188CDC56181AB5DD005A1048 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		188CDC57181AB5DD005A1048 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		188CDC58181AB5DD005A1048 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		188CDC5B181AB5DD005A1048 /* AutoClick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoClick-Info.plist"; sourceTree = "<group>"; };
+		188CDC5D181AB5DD005A1048 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188CDC5F181AB5DD005A1048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		188CDC61181AB5DD005A1048 /* AutoClick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AutoClick-Prefix.pch"; sourceTree = "<group>"; };
+		188CDC63181AB5DD005A1048 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		188CDC65181AB5DD005A1048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		188CDC66181AB5DD005A1048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		188CDC69181AB5DD005A1048 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		188CDC70181AB5DD005A1048 /* AutoClickTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoClickTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188CDC71181AB5DD005A1048 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		188CDC78181AB5DD005A1048 /* AutoClickTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoClickTests-Info.plist"; sourceTree = "<group>"; };
+		188CDC7A181AB5DD005A1048 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		188CDC7C181AB5DD005A1048 /* AutoClickTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoClickTests.h; sourceTree = "<group>"; };
+		188CDC7D181AB5DD005A1048 /* AutoClickTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoClickTests.m; sourceTree = "<group>"; };
+		18CD3A13181E1D8200D33382 /* MainWindowDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowDelegate.h; sourceTree = "<group>"; };
+		18CD3A14181E1D8200D33382 /* MainWindowDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188CDC4C181AB5DC005A1048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CDC54181AB5DD005A1048 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188CDC6C181AB5DD005A1048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CDC72181AB5DD005A1048 /* SenTestingKit.framework in Frameworks */,
+				188CDC73181AB5DD005A1048 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		188CDC44181AB5DC005A1048 = {
+			isa = PBXGroup;
+			children = (
+				188CDC59181AB5DD005A1048 /* AutoClick */,
+				188CDC76181AB5DD005A1048 /* AutoClickTests */,
+				188CDC52181AB5DD005A1048 /* Frameworks */,
+				188CDC50181AB5DD005A1048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		188CDC50181AB5DD005A1048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188CDC4F181AB5DD005A1048 /* AutoClick.app */,
+				188CDC70181AB5DD005A1048 /* AutoClickTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188CDC52181AB5DD005A1048 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188CDC53181AB5DD005A1048 /* Cocoa.framework */,
+				188CDC71181AB5DD005A1048 /* SenTestingKit.framework */,
+				188CDC55181AB5DD005A1048 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		188CDC55181AB5DD005A1048 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188CDC58181AB5DD005A1048 /* Foundation.framework */,
+				188CDC56181AB5DD005A1048 /* AppKit.framework */,
+				188CDC57181AB5DD005A1048 /* CoreData.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		188CDC59181AB5DD005A1048 /* AutoClick */ = {
+			isa = PBXGroup;
+			children = (
+				188CDC65181AB5DD005A1048 /* AppDelegate.h */,
+				188CDC66181AB5DD005A1048 /* AppDelegate.m */,
+				188CDC68181AB5DD005A1048 /* MainMenu.xib */,
+				188CDC5A181AB5DD005A1048 /* Supporting Files */,
+				18CD3A13181E1D8200D33382 /* MainWindowDelegate.h */,
+				18CD3A14181E1D8200D33382 /* MainWindowDelegate.m */,
+			);
+			path = AutoClick;
+			sourceTree = "<group>";
+		};
+		188CDC5A181AB5DD005A1048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188CDC5B181AB5DD005A1048 /* AutoClick-Info.plist */,
+				188CDC5C181AB5DD005A1048 /* InfoPlist.strings */,
+				188CDC5F181AB5DD005A1048 /* main.m */,
+				188CDC61181AB5DD005A1048 /* AutoClick-Prefix.pch */,
+				188CDC62181AB5DD005A1048 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188CDC76181AB5DD005A1048 /* AutoClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				188CDC7C181AB5DD005A1048 /* AutoClickTests.h */,
+				188CDC7D181AB5DD005A1048 /* AutoClickTests.m */,
+				188CDC77181AB5DD005A1048 /* Supporting Files */,
+			);
+			path = AutoClickTests;
+			sourceTree = "<group>";
+		};
+		188CDC77181AB5DD005A1048 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				188CDC78181AB5DD005A1048 /* AutoClickTests-Info.plist */,
+				188CDC79181AB5DD005A1048 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188CDC4E181AB5DC005A1048 /* AutoClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188CDC81181AB5DD005A1048 /* Build configuration list for PBXNativeTarget "AutoClick" */;
+			buildPhases = (
+				188CDC4B181AB5DC005A1048 /* Sources */,
+				188CDC4C181AB5DC005A1048 /* Frameworks */,
+				188CDC4D181AB5DC005A1048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoClick;
+			productName = AutoClick;
+			productReference = 188CDC4F181AB5DD005A1048 /* AutoClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188CDC6F181AB5DD005A1048 /* AutoClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188CDC84181AB5DD005A1048 /* Build configuration list for PBXNativeTarget "AutoClickTests" */;
+			buildPhases = (
+				188CDC6B181AB5DD005A1048 /* Sources */,
+				188CDC6C181AB5DD005A1048 /* Frameworks */,
+				188CDC6D181AB5DD005A1048 /* Resources */,
+				188CDC6E181AB5DD005A1048 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188CDC75181AB5DD005A1048 /* PBXTargetDependency */,
+			);
+			name = AutoClickTests;
+			productName = AutoClickTests;
+			productReference = 188CDC70181AB5DD005A1048 /* AutoClickTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188CDC46181AB5DC005A1048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Kenta Motomura";
+			};
+			buildConfigurationList = 188CDC49181AB5DC005A1048 /* Build configuration list for PBXProject "AutoClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 188CDC44181AB5DC005A1048;
+			productRefGroup = 188CDC50181AB5DD005A1048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188CDC4E181AB5DC005A1048 /* AutoClick */,
+				188CDC6F181AB5DD005A1048 /* AutoClickTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188CDC4D181AB5DC005A1048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CDC5E181AB5DD005A1048 /* InfoPlist.strings in Resources */,
+				188CDC64181AB5DD005A1048 /* Credits.rtf in Resources */,
+				188CDC6A181AB5DD005A1048 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188CDC6D181AB5DD005A1048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CDC7B181AB5DD005A1048 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		188CDC6E181AB5DD005A1048 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188CDC4B181AB5DC005A1048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CDC60181AB5DD005A1048 /* main.m in Sources */,
+				188CDC67181AB5DD005A1048 /* AppDelegate.m in Sources */,
+				18CD3A15181E1D8200D33382 /* MainWindowDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188CDC6B181AB5DD005A1048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188CDC7E181AB5DD005A1048 /* AutoClickTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188CDC75181AB5DD005A1048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188CDC4E181AB5DC005A1048 /* AutoClick */;
+			targetProxy = 188CDC74181AB5DD005A1048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188CDC5C181AB5DD005A1048 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188CDC5D181AB5DD005A1048 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		188CDC62181AB5DD005A1048 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188CDC63181AB5DD005A1048 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		188CDC68181AB5DD005A1048 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188CDC69181AB5DD005A1048 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		188CDC79181AB5DD005A1048 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188CDC7A181AB5DD005A1048 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188CDC7F181AB5DD005A1048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.7;
+			};
+			name = Debug;
+		};
+		188CDC80181AB5DD005A1048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx10.7;
+			};
+			name = Release;
+		};
+		188CDC82181AB5DD005A1048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoClick/AutoClick-Prefix.pch";
+				INFOPLIST_FILE = "AutoClick/AutoClick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		188CDC83181AB5DD005A1048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoClick/AutoClick-Prefix.pch";
+				INFOPLIST_FILE = "AutoClick/AutoClick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		188CDC85181AB5DD005A1048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoClick.app/Contents/MacOS/AutoClick";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoClick/AutoClick-Prefix.pch";
+				INFOPLIST_FILE = "AutoClickTests/AutoClickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		188CDC86181AB5DD005A1048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AutoClick.app/Contents/MacOS/AutoClick";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoClick/AutoClick-Prefix.pch";
+				INFOPLIST_FILE = "AutoClickTests/AutoClickTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188CDC49181AB5DC005A1048 /* Build configuration list for PBXProject "AutoClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188CDC7F181AB5DD005A1048 /* Debug */,
+				188CDC80181AB5DD005A1048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188CDC81181AB5DD005A1048 /* Build configuration list for PBXNativeTarget "AutoClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188CDC82181AB5DD005A1048 /* Debug */,
+				188CDC83181AB5DD005A1048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188CDC84181AB5DD005A1048 /* Build configuration list for PBXNativeTarget "AutoClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188CDC85181AB5DD005A1048 /* Debug */,
+				188CDC86181AB5DD005A1048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188CDC46181AB5DC005A1048 /* Project object */;
+}
