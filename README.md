@@ -1,5 +1,5 @@
-autoclick
-=========
+Auto cookie clicker
+===================
 
 An automatic cookie clicker tool for Mac OS X.
 
